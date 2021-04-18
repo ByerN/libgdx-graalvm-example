@@ -54,7 +54,7 @@ It replaces original code when generating native-image. Very useful when hacking
 ## Is it worth?
 I don't think so. I've compiled my own game TAnima:
 
-![tanima](https://media.giphy.com/media/TiOwMaWAKiQj3DMAAA/giphy.gif)
+![tanima](https://media.giphy.com/media/TiOwMaWAKiQj3DMAAA/source.gif)
 
 to native image and I don't see any significant boost. 
 I'd say that same app on jvm16 (graalvm is only java11 right now) performs even better.
