@@ -1,0 +1,17 @@
+{
+  "resources":{
+  "includes":[
+    {"pattern":"\\Qgamecontrollerdb.txt\\E"}, 
+    {"pattern":"\\Qgdx-box2d64.dll\\E"}, 
+    {"pattern":"\\Qgdx-freetype64.dll\\E"}, 
+    {"pattern":"\\Qgdx64.dll\\E"}, 
+    {"pattern":"\\Qjamepad64.dll\\E"}, 
+    {"pattern":"\\Qorg/lwjgl/system/APIUtil.class\\E"}, 
+    {"pattern":"\\Qwindows/x64/org/lwjgl/glfw/glfw.dll\\E"}, 
+    {"pattern":"\\Qwindows/x64/org/lwjgl/jemalloc/jemalloc.dll\\E"}, 
+    {"pattern":"\\Qwindows/x64/org/lwjgl/lwjgl.dll\\E"}, 
+    {"pattern":"\\Qwindows/x64/org/lwjgl/openal/OpenAL.dll\\E"}, 
+    {"pattern":"\\Qwindows/x64/org/lwjgl/opengl/lwjgl_opengl.dll\\E"}
+  ]},
+  "bundles":[]
+}

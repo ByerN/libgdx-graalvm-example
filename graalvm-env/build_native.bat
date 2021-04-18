@@ -1,0 +1,13 @@
+native-image.cmd ^
+-H:+ReportExceptionStackTraces ^
+--report-unsupported-elements-at-runtime ^
+--initialize-at-run-time=org.lwjgl ^
+--no-fallback ^
+--allow-incomplete-classpath ^
+-H:ReflectionConfigurationFiles=config/reflect-config.json ^
+-H:JNIConfigurationFiles=config/jni-config.json ^
+-H:DynamicProxyConfigurationFiles=config/proxy-config.json ^
+-H:SerializationConfigurationFiles=config/serialization-config.json ^
+-H:ResourceConfigurationFiles=config/resource-config.json ^
+-Dorg.lwjgl.librarypath=. ^
+-jar desktop-1.0.jar	

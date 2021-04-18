@@ -1,0 +1,3 @@
+include 'desktop', 'core'
+include 'libgdx-native-image'
+

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: "java"
+apply plugin: "java-library"
+version '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "org.graalvm.nativeimage:svm-hosted-native-windows-amd64:$graalvmVersion"
+    compile "org.graalvm.nativeimage:svm:$graalvmVersion"
+    api "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+
+    api "com.esotericsoftware:kryonet:2.22.0-RC1"
+}

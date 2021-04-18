@@ -1,0 +1,1 @@
+java -agentlib:native-image-agent=config-output-dir=./config,config-write-period-secs=30 -jar desktop-1.0.jar

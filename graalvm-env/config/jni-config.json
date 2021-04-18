@@ -1,0 +1,61 @@
+[
+{
+  "name":"com.badlogic.gdx.physics.box2d.World",
+  "methods":[
+    {"name":"beginContact","parameterTypes":["long"] }, 
+    {"name":"contactFilter","parameterTypes":["long","long"] }, 
+    {"name":"endContact","parameterTypes":["long"] }, 
+    {"name":"postSolve","parameterTypes":["long","long"] }, 
+    {"name":"preSolve","parameterTypes":["long","long"] }, 
+    {"name":"reportFixture","parameterTypes":["long"] }, 
+    {"name":"reportRayFixture","parameterTypes":["long","float","float","float","float","float"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader",
+  "methods":[{"name":"getPlatformClassLoader","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.NoSuchMethodError"
+},
+{
+  "name":"org.lwjgl.system.CallbackI$B",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$D",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$F",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$I",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$J",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$N",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$P",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$S",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$V",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+},
+{
+  "name":"org.lwjgl.system.CallbackI$Z",
+  "methods":[{"name":"callback","parameterTypes":["long"] }]
+}
+]
