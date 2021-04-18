@@ -1,6 +1,9 @@
 # Libgdx + Graalvm native-image example
 ![logo](https://media.giphy.com/media/PI8mWU9WeLFgnKN9E2/giphy.gif)
 
+## Introduction
+Please check my video for short introduction: https://www.youtube.com/watch?v=9eevmylv0fU&ab_channel=ByerNiX
+
 ## Why?
 I was curious how much Graalvm native-image could help with my java game.
 Main things that could be improved was:
